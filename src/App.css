@@ -1,4 +1,30 @@
-Img {
-    width: 100%;
+.App {
+  text-align: center;
+  
+  }
+
+/* .poster {
+flex-basis: 100%;
+flex: 1; 
+height: 100%;
+width: 100%;
+}
+*/
+
+.image-cover-row {
+  display: flex;
+  flex: 1;
+  margin: 10px;
+  padding: 50px;
 }
 
+.image-cover-row-item {
+  height: 100%;
+  width: 100%;
+  }
+  
+  @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
