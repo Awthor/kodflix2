@@ -4,6 +4,29 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### Prerequisites
+
+You need to install nodejs and npm on your respective platform.
+
+** Linux **
+
+Please use [snapd](https://snapcraft.io/docs/installing-snapd) and then install [node](https://snapcraft.io/node)! 
+
+** Mac OSX **
+
+Please use [hombrew](https://dyclassroom.com/howto-mac/how-to-install-nodejs-and-npm-on-mac-using-homebrew)
+
+** Windows **
+
+Yeah, you are on your own. Just kidding you can use stupid shit called chocolately.
+https://chocolatey.org/packages/nodejs
+
+### `npm install`
+
+To install the required packages
+
+https://github.com/Awthor/kodflix2/blob/7309495262d894ba3b603558774cf03fb5d89e25/package.json#L5-L11!
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
