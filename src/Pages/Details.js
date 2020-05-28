@@ -3,6 +3,7 @@ import { Link, Redirect } from 'react-router-dom';
 import getMovies from '../Gallery/Movies-get';
 
 
+
 export default class Details extends Component {
 
     constructor() {
@@ -26,7 +27,7 @@ export default class Details extends Component {
             return (
                 <div className='details'>
                     <h3>{this.state.movie.name}</h3>
-                    <div className='Container'>
+                    <div className='image-cover-row'>
                         <div
                             className='Text'>
                             {this.state.movie.details}</div>
