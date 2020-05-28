@@ -9,7 +9,9 @@ export default function getMovies() {
     return [
       { name: "Gladiator", 
       picture: Gladiator, 
-      id: 'Galdiator'},
+        id: 'Galdiator',
+        details: `lojkdfkljsndf`
+      },
 
       { name: "Lord of The Ring", 
       picture: LOTR, id: 
