@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import MoviesGallery from './Gallery/MoviesGallery';
+import MoviesGallery from '../frontend/Gallery/MoviesGallery';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Details from './Pages/Details';
+import Details from '../frontend/Pages/Details';
 import './App.css';
 
 class App extends Component {
