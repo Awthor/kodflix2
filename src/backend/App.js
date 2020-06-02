@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 3001;
 const getMovies = require('./movies');
 
 app.get('/api/movies', (req, res) => res.send(getMovies()));
 
-app.listen(port, () => console.log(`hello!`));
+app.listen(port, () => console.log(getMovies));

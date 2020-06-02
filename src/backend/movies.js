@@ -3,8 +3,7 @@ module.exports = function getMovies() {
       {
         name: "Gladiator",
         id: 'Galdiator',
-        details: `Commodus takes over power and demotes Maximus, 
-          one of the preferred generals of his father, 
+        details: `Commodus takes over power and demotes Maximus, one of the preferred generals of his father, 
           Emperor Marcus Aurelius. As a result, Maximus 
           is relegated to fighting till death as a gladiator.`
       },
