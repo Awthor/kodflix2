@@ -1,9 +1,8 @@
 import React from 'react';
-import getMovies from './Movie';
+import getMovies from './Movies-get';
 import Movie from './Movie';
-//import getMovies from '../Movies';
 
-export default class Gallery extends React.Component {
+export default class MoviesGallery extends React.Component {
 
     componentDidMount() {
         fetch('/rest/movies')
