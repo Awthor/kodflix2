@@ -16,19 +16,19 @@ export default class Details extends Component {
     }
 
     render() {
-        if (this.state.movietitle === undefined) {
+        if (this.state.movie === undefined) {
             return <Redirect to='/not-found' />;
         } else {
             return (
                 <div className='details'>
-                    <h1>{this.state.movie.title}</h1>
+                    <h1>{this.state.movie.name}</h1>
                     <div className='image-cover-row'>
                         <h3 className='Text'>
                             {this.state.movie.details}
                         </h3>
                         <div className='img'>
                             <img src={this.state.movie.picture}
-                                alt={this.state.movie.title} />
+                                alt={this.state.movie.name} />
                         </div>
                     </div>
                 </div>
