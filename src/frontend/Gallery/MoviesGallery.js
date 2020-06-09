@@ -1,9 +1,9 @@
 import React from 'react';
-import getMovies from './Movie';
+import getMovies from './Movies-get';
 import Movie from './Movie';
-//import getMovies from '../Movies';
+import '../App.css';
 
-export default class Gallery extends React.Component {
+export default class MoviesGallery extends React.Component {
 
     componentDidMount() {
         fetch('/rest/movies')
@@ -17,14 +17,14 @@ export default class Gallery extends React.Component {
 
     render() {
         return (
-            <div className='gallery'>{
+            <div className='image-cover-row'>{
                 getMovies().map(movies => {
                     return (
                         <Movie
-                            image={movies.image}
+                            picture={movies.picture}
                             key={movies.id}
                             id={movies.id}
-                            title={movies.title} />
+                            name={movies.name} />
                     );
                 })
             }

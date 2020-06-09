@@ -1,7 +1,7 @@
 module.exports = function getMovies() {
     return [
       {
-        name: "Gladiator",
+        name: "Aaron",
         id: 'Galdiator',
         details: `Commodus takes over power and demotes Maximus, one of the preferred generals of his father, 
           Emperor Marcus Aurelius. As a result, Maximus 
